@@ -1,0 +1,44 @@
+/* ---------------------- layout ------------------------- */
+
+body {
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 1.2em;
+    background-color: ivory;
+    color: black;
+}
+
+.container {
+    width: 90%;
+    max-width: 1400px;
+    min-width: 500px;
+    margin: 20px auto;
+    overflow: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    min-height: 80px;
+    text-align: center;
+}
+
+h2 {
+    color: navy;
+    text-align: center;
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: navy;
+}
+
+img {
+    width: 500px;
+}
