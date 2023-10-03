@@ -1,0 +1,47 @@
+body{
+    background: gray;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: xx-large;
+}
+
+h2{
+    color: white;
+}
+
+ol {
+    list-style-type: upper-roman;
+    color: white;
+}
+
+ol ol {
+    list-style-type: upper-latin;
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+}
+
+ul ul {
+    list-style-type: square;
+    color: red;
+}
+
+dt {
+    color: red;
+}
+
+dd {
+    color: white;
+}
