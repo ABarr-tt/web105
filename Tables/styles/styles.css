@@ -1,0 +1,39 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+    border: 3px solid purple;
+    overflow: auto;
+    padding: 15px;
+}
+
+h1{
+    color: purple;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: purple;
+    border: 2px solid purple;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+nav a :hover{
+    color: purple;
+    background-color: whitesmoke
+}
