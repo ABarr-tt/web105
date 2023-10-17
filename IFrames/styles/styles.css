@@ -1,0 +1,26 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+iframe{
+    width: 90%;
+    height: 500px;
+    border: 3px black;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #540a37;
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: #540a37;
+    margin-top: 50px;
+}
