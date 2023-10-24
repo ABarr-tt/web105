@@ -1,0 +1,81 @@
+/* Header styling */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: teal;
+}
+
+/* Main content styling */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.art-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.art-image {
+    max-width: 30%;
+    height: 700px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.main-text-box {
+    background-color: #fff;
+    padding: 10px;
+    width: 30%; /* Set the width to 30% of the screen width */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    text-indent: 10%;
+    border-radius: 10px;
+}
+
+/* Center the main text box between the images */
+.art-content > .main-text-box {
+    flex: 1; 
+}
