@@ -1,0 +1,99 @@
+:root{
+    --text-font:'Noto Sans', sans-serif;
+    --heading-font:'ubuntu', sans-serif;
+    --dark-prinary: #455A64;
+    --light-primary:#CFD8DC;
+    --primary:#607D8B;
+    --text-icons:#FFFFFF;
+    --accent-color:#9E9E9E;
+    --primary-text:#212121;
+    --secondary-text:#757575;
+    --divider-color:#BDBDBD;
+}
+
+*{
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-family: var(--text-font);
+}
+
+.container{
+    width:80%;
+    max-width: 1200px;
+    margin: 10px auto;
+    background-color: var(--text-icons);
+}
+
+aside{
+    width: 25%;
+    float: right;
+    margin-left: 10px;
+    border: 2px solid var(--divider-color);
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+ul{
+    list-style-type:none;
+}
+
+h1, h2, h3{
+    font-family: var(--heading-font);
+    color: var(--dark-prinary);
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    padding: 5px;
+    font-family: var(--primary-text);
+    font-size: 1.2em;
+    color: var(--primary-text);
+}
+
+a{
+    text-decoration: none;
+    color: var(--dark-prinary);
+}
+
+main{
+    margin: 20px 10px;
+}
+
+header, footer{
+    clear: both;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+header{
+    background: var(--dark-prinary);
+    color: var(--text-icons);
+}
+
+header h1{
+    color: var(--text-icons);
+    font-size: 3em;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: var(--primary);
+}
+
+ul{
+    padding-inline-start: 10px;
+}
+
+ul, li{
+    margin-top: 20px;
+}
