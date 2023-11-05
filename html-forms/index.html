@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Favorite Type of Movie</h1>
+
+        <form>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" required autofocus><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" required>
+            <br>
+            <h3>Desired Movie Length</h3>
+            <input type="radio" id="short" name="length" value="short">
+            <label for="short">Short (~60 minute) movie</label><br>
+            <input type="radio" id="medium" name="length" value="medium">
+            <label for="medium">Medium (~90 minute) movie</label><br>
+            <input type="radio" id="long" name="length" value="long">
+            <label for="long">Long (120+ minute) movie</label>
+            <br>
+            <h3>Genre</h3>
+            <select name="genre" id="genre">
+                <option value="Horor">Horor</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Drama">Drama</option>
+                <option value="Period-piece">Period-piece</option>
+                <option value="Historical">Historical</option>
+
+            </select>
+            <h3>Favorite Movie</h3>
+            <textarea name="Favorite Movies" rows="5" cols="60" placeholder="Enter the name(s) of your favorite movie(s)">
+
+            </textarea>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+</body>
+</html>
