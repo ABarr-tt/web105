@@ -1,0 +1,19 @@
+.container-fluid{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.display-1{
+    text-align: center;
+}
+
+img, source{
+    min-width: 50vw;
+    width: 50%;
+    align-content: center ;
+    padding: 10px;
+}
+
+.text-danger{
+    text-align: center;
+}
