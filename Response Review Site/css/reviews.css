@@ -1,0 +1,89 @@
+:root{
+    --text-font:'Noto Sans', sans-serif;
+    --heading-font:'Asap', sans-serif;
+    --dark-prinary: #455A64;
+    --light-primary:#CFD8DC;
+    --primary:#607D8B;
+    --text-icons:#FFFFFF;
+    --accent-color:#9E9E9E;
+    --primary-text:#212121;
+    --secondary-text:#757575;
+    --divider-color:#BDBDBD;
+}
+body {
+    margin: 0;
+    font-family: var(--text-font);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+h1 {
+    margin: 0;
+    font-family: var(--heading-font);
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.background-image {
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    color: #333;
+    font-family: var(--heading-font);
+}
+
+.review {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.customer-image {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.review-text {
+    flex: 1;
+}
+
+.rating {
+    font-size: 1.5em;
+}
+
+.star {
+    color: #ffd700; /* Gold color for stars */
+}
+
+p {
+    margin-top: 10px;
+}

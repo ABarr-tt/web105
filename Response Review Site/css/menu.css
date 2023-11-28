@@ -1,0 +1,93 @@
+:root{
+    --text-font:'Noto Sans', sans-serif;
+    --heading-font:'Asap', sans-serif;
+    --dark-prinary: #455A64;
+    --light-primary:#CFD8DC;
+    --primary:#607D8B;
+    --text-icons:#FFFFFF;
+    --accent-color:#9E9E9E;
+    --primary-text:#212121;
+    --secondary-text:#757575;
+    --divider-color:#BDBDBD;
+}
+
+body {
+    margin: 0;
+    font-family: var(--text-font);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+h1 {
+    margin: 0;
+    font-family: var(--heading-font);
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.background-image {
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.menu {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping for two columns */
+    justify-content: space-between; /* Add space between columns */
+}
+
+.menu-category {
+    flex: 0 0 48%; /* Each column takes up 48% of the container */
+    margin-bottom: 20px; /* Add margin between rows */
+}
+
+.menu-category-image {
+    width: 30%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px; 
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
